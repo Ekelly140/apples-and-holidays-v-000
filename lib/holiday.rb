@@ -62,6 +62,7 @@ def all_holidays_with_bbq(holiday_hash)
  bbq_holidays = []
  holiday_hash.each do |seasons, values|
    values.map do |holiday, supplies| 
+     binding.pry
     if supplies == "BBQ"
      bbq_holidays << holiday
     end 
