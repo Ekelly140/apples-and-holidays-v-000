@@ -64,7 +64,7 @@ def all_holidays_with_bbq(holiday_hash)
    values.map {|holiday, supplies| supplies == "BBQ"}
     puts holiday
      bbq_holidays << holiday
-   end
+   
   end 
 end
 
